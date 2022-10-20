@@ -1,0 +1,536 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1658486037935788, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486037937103, "dur": 13493, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486037950805, "dur": 101112, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486038051938, "dur": 1164624, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486039216564, "dur": 10496433, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486049713014, "dur": 9925, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486063116099, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486063116316, "dur": 16103, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486063132424, "dur": 47091, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486063179517, "dur": 825226, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486064004745, "dur": 3904350, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486067909096, "dur": 12877, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486067922257, "dur": 22, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1658486063766007, "dur": 228326, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658486063766928, "dur": 41820, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658486063972897, "dur": 3780, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658486063976679, "dur": 17645, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658486063977348, "dur": 8553, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658486063998231, "dur": 1140, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1658486063997542, "dur": 1848, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486067922316, "dur": 92, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1658486064051199, "dur":485, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486064051687, "dur":35, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1658486064051739, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1658486064051752, "dur":421, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1658486064052196, "dur":402, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486064052598, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232045, "dur":66, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232111, "dur":42, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232153, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232156, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232166, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232167, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232178, "dur":62, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232240, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232252, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232253, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232261, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232263, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232280, "dur":128, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232408, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232417, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232420, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232425, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232426, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232432, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232433, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232439, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232440, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232446, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232448, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232454, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232462, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067232475, "dur":382220, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1658486064052437, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658486064052632, "dur":2244, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658486064054894, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658486064054898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658486064070373, "dur":138, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658486064070514, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658486064070531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658486064070681, "dur":4224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1658486064074908, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1658486064074938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658486064075230, "dur":131012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1658486064206264, "dur":847013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658486065053282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658486065053485, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658486065054539, "dur":313058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658486065367600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1658486065367605, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1658486065368718, "dur":1863324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064052750, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064052750, "dur":2157, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064054907, "dur":53715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1658486064108624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064108635, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1658486064109657, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1658486064109709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064109714, "dur":97422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1658486064207148, "dur":37965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064245117, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064245351, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064246093, "dur":106064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064352163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064352171, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064353165, "dur":80803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064433972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064433978, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064434661, "dur":52653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064487318, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064487328, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064488205, "dur":45292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064533500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064533504, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064534236, "dur":31896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064566140, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064566152, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064567138, "dur":20970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064588112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064588118, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064588946, "dur":44132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064666724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064666730, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064668476, "dur":20109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064688587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064688593, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064689749, "dur":136373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064826124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064826128, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064827221, "dur":92925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064920149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486064920155, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486064921238, "dur":723556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486065644797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1658486065644801, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1658486065645703, "dur":1586345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486064052544, "dur":118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486064052662, "dur":2222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486064054894, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1658486064054980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486064058677, "dur":147687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1658486064206383, "dur":507953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":3, "ts":1658486064714339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486064714344, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":3, "ts":1658486064715387, "dur":96542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658486064811931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486064811936, "dur":700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658486064812648, "dur":53601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658486064866252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486064866258, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658486064866954, "dur":166855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658486065033816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065033822, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658486065034580, "dur":294681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658486065329265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065329270, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1658486065330840, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1658486065330851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065330879, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1658486065331560, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065331570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065331573, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065332220, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1658486065332229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065332233, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1658486065333735, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658486065333745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065333749, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658486065334599, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065334609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065334612, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065335276, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065335285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065335288, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065335932, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065335947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065335951, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065336695, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1658486065336709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065336713, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1658486065337900, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065337914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065337919, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065338773, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1658486065339185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065339189, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1658486065339910, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658486065339920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065339922, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1658486065340952, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1658486065340961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065340963, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1658486065341805, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065341816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1658486065341819, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1658486065342809, "dur":1889234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064052643, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064052643, "dur":2240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064054894, "dur":40204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1658486064095101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064095291, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1658486064095877, "dur":12736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1658486064108617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064108627, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1658486064109536, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1658486064109614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064109621, "dur":127796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1658486064237440, "dur":74883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064312331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064312339, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064313918, "dur":31597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064345520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064345529, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064347000, "dur":58379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064405382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064405387, "dur":702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064406100, "dur":106203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064512305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064512324, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064513223, "dur":28094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064541321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064541327, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064542005, "dur":27484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064569492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064569497, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064570155, "dur":45258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064615417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064615424, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064616342, "dur":37359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064666739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064666744, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064668678, "dur":123287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064791969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064791975, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064792821, "dur":203942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064996767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486064996773, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486064998024, "dur":86985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486065085012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065085018, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486065085701, "dur":163186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486065248891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065248897, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486065249742, "dur":85286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486065335030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065335034, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1658486065335851, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1658486065335865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065335870, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1658486065336865, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658486065336874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065336877, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658486065337908, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1658486065337989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065337993, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1658486065338851, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658486065338866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065338889, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658486065339833, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1658486065339847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065339851, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1658486065340744, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658486065340757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065340760, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1658486065341589, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1658486065341607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065341612, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1658486065342364, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1658486065342446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1658486065342450, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1658486065343301, "dur":1888749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064052838, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064052839, "dur":2065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064054904, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1658486064054956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064056959, "dur":175021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1658486064232004, "dur":67205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064299214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064299222, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064300616, "dur":101736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064402359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064402365, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064403250, "dur":405396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064808651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064808659, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064810221, "dur":27301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064837525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064837531, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064838201, "dur":79210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064917415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486064917422, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486064918387, "dur":106101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486065024492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486065024498, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486065025390, "dur":131284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486065156677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486065156683, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486065157510, "dur":152420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486065309953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486065309961, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486065310991, "dur":331336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486065642331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1658486065642337, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1658486065643101, "dur":1588958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064052921, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064052922, "dur":1967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064054894, "dur":53718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1658486064108616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064108629, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1658486064109628, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1658486064109686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064109692, "dur":97211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1658486064206921, "dur":38540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064245463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064245502, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064246267, "dur":77646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064323929, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064323947, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064325055, "dur":28150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064353208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064353214, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064354185, "dur":139747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064493935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064493942, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064494701, "dur":37901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064532605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064532611, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064533419, "dur":28341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064561764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064561770, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064562533, "dur":39643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064602180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064602189, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064603076, "dur":39941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064666732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064666739, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064668587, "dur":124233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064792823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064792829, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064793686, "dur":21488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064815194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064815201, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064815991, "dur":34751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064850746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064850752, "dur":637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064851401, "dur":54421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064905826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064905834, "dur":949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064906799, "dur":32992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064939795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486064939800, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486064940764, "dur":77557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486065018325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486065018331, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486065019295, "dur":39458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486065058756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486065058762, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486065059465, "dur":278457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486065337924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486065337929, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1658486065338883, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1658486065338898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486065338903, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1658486065339768, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658486065339778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486065339780, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658486065340487, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1658486065340496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486065340499, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1658486065341338, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658486065341346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486065341349, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1658486065342114, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1658486065342221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1658486065342225, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1658486065343095, "dur":1888949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486064053020, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486064053020, "dur":1889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486064054909, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1658486064054962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486064058468, "dur":173479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1658486064231970, "dur":503642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486064735615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486064735621, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486064736345, "dur":74738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486064811086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486064811091, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486064811827, "dur":14270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486064826101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486064826107, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486064826929, "dur":61227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486064888160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486064888166, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486064889046, "dur":1231344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486066120393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1658486066120399, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1658486066122314, "dur":1109755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658486064053120, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658486064053121, "dur":1784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658486064054907, "dur":30843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658486064085754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658486064085771, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658486064086516, "dur":46317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658486064132837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658486064132846, "dur":73441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1658486064206312, "dur":3017166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658486067223482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1658486067223486, "dur":8513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1658486067232015, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1658486067232017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064053217, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064053217, "dur":1672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064054894, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1658486064054957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064056979, "dur":149703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1658486064206704, "dur":132282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064338990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064338998, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064340076, "dur":55698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064395778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064395784, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064396674, "dur":43446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064440124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064440128, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064440744, "dur":68961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064509708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064509714, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064510678, "dur":15017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064525699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064525704, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064526400, "dur":56922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064583326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064583333, "dur":675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064584020, "dur":40396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064624423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064624430, "dur":42285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064666735, "dur":166637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064833373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064833378, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064834196, "dur":46136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064880335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064880341, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064881102, "dur":52549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064933654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486064933660, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486064934389, "dur":109563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486065043956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486065043961, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486065044723, "dur":238807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486065283535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486065283544, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486065284462, "dur":670532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486065954997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1658486065955003, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1658486065957510, "dur":1274557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064053304, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064053304, "dur":1602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064054907, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1658486064055158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064056858, "dur":149563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1658486064206439, "dur":56029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster.exe" }}
+,{ "pid":12345, "tid":10, "ts":1658486064262471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064262476, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster.exe" }}
+,{ "pid":12345, "tid":10, "ts":1658486064263425, "dur":80410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064343841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064343850, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064345608, "dur":56056, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064401683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064401689, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064402486, "dur":49707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064452199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064452228, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064453178, "dur":58290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064511471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064511476, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064512206, "dur":94835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064607046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064607055, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064608073, "dur":18146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064666715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064666720, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064668767, "dur":251289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064920060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486064920068, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486064921091, "dur":704167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486065625261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1658486065625267, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1658486065626085, "dur":1605984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658486064053331, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658486064053331, "dur":1573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658486064054905, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1658486064054956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658486064057006, "dur":149240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1658486064206270, "dur":1984348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658486066190621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1658486066190667, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1658486066193134, "dur":1038915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064053381, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064053381, "dur":1507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064054894, "dur":30857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1658486064085754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064085775, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1658486064086527, "dur":12846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1658486064099376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064099442, "dur":107053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1658486064206528, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1658486064206591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064206867, "dur":166194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1658486064373079, "dur":37025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064410107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064410112, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064410948, "dur":14013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064424965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064424973, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064425708, "dur":36195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064461907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064461916, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064462691, "dur":45370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064508064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064508070, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064508828, "dur":53802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064562632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064562636, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064563420, "dur":61343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064666701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064666710, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064668522, "dur":20060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064688586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064688593, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064689735, "dur":142663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064832401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064832407, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064833096, "dur":95818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064928922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486064928929, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486064929857, "dur":98866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486065028727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486065028733, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486065029618, "dur":260829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486065290451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486065290456, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486065292916, "dur":142704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kuzia/Desktop/Faster_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486065435623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1658486065435628, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kuzia/Desktop/Faster_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1658486065437571, "dur":1794497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1658486067870833, "dur":13026, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1658486067922435, "dur": 437, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1658486067922247, "dur": 641, "ph": "X", "name": "Write chrome-trace events", "args": {} },
