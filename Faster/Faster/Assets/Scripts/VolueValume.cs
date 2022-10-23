@@ -7,13 +7,13 @@ public class VolueValume : MonoCache
 
     private AudioSource audioScr;
     private float musicVolume = 0.3f;
-    // Start is called before the first frame update
+    
     void Start()
     {
         audioScr = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
+    // справка 3
     public override void OnTick()
     {
         audioScr.volume = musicVolume;

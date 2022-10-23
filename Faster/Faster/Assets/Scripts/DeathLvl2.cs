@@ -14,3 +14,4 @@ public class DeathLvl2 : MonoBehaviour
         }
     }
 }
+//справка

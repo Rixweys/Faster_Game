@@ -10,3 +10,4 @@ public class lockMouse : MonoBehaviour
 
    
 }
+//справка 2
